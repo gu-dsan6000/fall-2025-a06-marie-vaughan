@@ -2,14 +2,11 @@
 
 ## Table of Contents
 
-2. [Problem 1: Log Level Distribution Analysis](#problem-1-log-level-distribution-analysis)
-3. [Problem 2: Cluster Timeline Analysis](#problem-2-cluster-timeline-analysis)
-4. [Performance Analysis](#performance-analysis)
-5. [Key Insights and Findings](#key-insights-and-findings)
-6. [Optimization Strategies](#optimization-strategies)
-7. [Additional Insights](#additional-insights)
-8. [Conclusion](#conclusion)
-9. [Appendix: Spark Web UI Screenshots](#appendix-spark-web-ui-screenshots)
+1. [Problem 1: Log Level Distribution Analysis](#problem-1-log-level-distribution-analysis)
+2. [Problem 2: Cluster Timeline Analysis](#problem-2-cluster-timeline-analysis)
+3. [Performance Analysis](#performance-analysis)
+4. [Optimization Strategies](#optimization-strategies)
+5. [Additional Insights](#additional-insights)
 
 ---
 
@@ -241,5 +238,3 @@ logs_with_level = logs_with_level.filter(col("log_level") != "")
    - **Solution**: Configured S3A filesystem and instance profile credentials
 
 ---
-
-*End of Report*
